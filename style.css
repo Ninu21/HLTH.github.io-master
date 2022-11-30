@@ -85,6 +85,7 @@ section {
   padding: 0 9%;
   z-index: 10000;
   background: #000;
+  opacity: 75%;
 }
 .header .logo {
   font-weight: bolder;
@@ -102,6 +103,7 @@ section {
 }
 .header .navbar a:hover {
   background: rgb(26, 255, 0);
+
 }
 
 #menu-btn {
@@ -213,47 +215,47 @@ section {
   color: rgb(0, 255, 13);
 }
 
-.features .box-container {
+.workout .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
   gap: 1.5rem;
   gap: 0;
 }
-.features .box-container .box {
+.workout .box-container .box {
   background: #111;
 }
-.features .box-container .box.second {
+.workout .box-container .box.second {
   display: flex;
   flex-flow: column-reverse;
 }
-.features .box-container .box:hover .image img {
+.workout .box-container .box:hover .image img {
   transform: scale(1.1);
 }
-.features .box-container .box .image {
+.workout .box-container .box .image {
   height: 30rem;
   width: 100%;
   overflow: hidden;
 }
-.features .box-container .box .image img {
+.workout .box-container .box .image img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.features .box-container .box .content {
+.workout .box-container .box .content {
   padding: 2rem;
   text-align: center;
 }
-.features .box-container .box .content img {
+.workout .box-container .box .content img {
   height: 9rem;
   margin-bottom: 1rem;
   filter: invert(1);
 }
-.features .box-container .box .content h3 {
+.workout .box-container .box .content h3 {
   font-size: 2rem;
   color: rgb(17, 255, 0);
 }
-.features .box-container .box .content p {
+.workout .box-container .box .content p {
   line-height: 2;
   font-size: 1.5rem;
   color: #aaa;
